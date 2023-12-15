@@ -9,6 +9,9 @@ fi
 # Check the branch name
 branch_name=$1
 
+# Check remote origin
+git remote -v
+
 # Switch to the master branch
 git checkout main
 
