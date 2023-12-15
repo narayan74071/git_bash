@@ -12,12 +12,14 @@ branch_name=$1
 # Switch to the master branch
 git checkout main
 
+git remote add origin git@github.com:narayan74071/git_bash.git
 # Pull from the specified branch
 git pull main
 
 # Switch to the specified branch
 git checkout $branch_name
 
+git remote add origin git@github.com:narayan74071/git_bash.git
 # Pull from the specified branch
 git pull $branch_name
 
