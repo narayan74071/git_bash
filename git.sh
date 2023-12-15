@@ -9,14 +9,6 @@ fi
 # Check the branch name
 branch_name=$1
 
-# Check remote origin
-git_rmt= git remote -v
-
-git remote -v
-git remote remove origin
-git remote add $git_rmt
-
-
 # Switch to the master branch
 git checkout main
 
